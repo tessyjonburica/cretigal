@@ -1,0 +1,32 @@
+@media only screen and (min-width: 320px) and (max-width: 768px ) {
+ body {
+      background-color: lightblue;
+    }
+    .cretigal {
+        font-size: 2.5rem;
+        text-align: center;
+        color: bisque !important;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1440px) {
+    /* For tablets: */
+    body {
+        background-color: rgb(32, 184, 57);
+      }
+      .cretigal{
+        font-size: 5.5rem;
+        text-align: center;
+        
+      }
+  }
+
+  @media only screen and (min-width: 1440px) and (max-width: 3000px){
+    /* For desktop: */
+    body {
+        background-color: rgb(171, 209, 34);
+      }
+      .cretigal{
+        font-size: 5.5rem;
+      }
+  }
