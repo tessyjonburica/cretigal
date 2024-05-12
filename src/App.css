@@ -1,32 +1,109 @@
-@media only screen and (min-width: 320px) and (max-width: 768px ) {
- body {
-      background-color: lightblue;
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  .cretigal {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .animate-from-bottom {
+    position: relative;
+    animation-name: slideFromBottom;
+    animation-duration: 1s; /* Adjust the duration as needed */
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes slideFromBottom {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
     }
-    .cretigal {
-        font-size: 2.5rem;
-        text-align: center;
-        color: bisque !important;
+    to {
+      transform: translateY(0);
+      opacity: 1;
     }
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 1440px) {
-    /* For tablets: */
-    body {
-        background-color: rgb(32, 184, 57);
-      }
-      .cretigal{
-        font-size: 5.5rem;
-        text-align: center;
-        
-      }
+  .resize{
+    font-size: 40px;
+  }
+  .text-resize{
+    font-size: 17px;
+  }
+  .small-resize{
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+  /* For tablets: */
+  body {
+    background-color: #ffffff;
   }
 
-  @media only screen and (min-width: 1440px) and (max-width: 3000px){
-    /* For desktop: */
-    body {
-        background-color: rgb(171, 209, 34);
-      }
-      .cretigal{
-        font-size: 5.5rem;
-      }
+  .cretigal {
+    font-size: 5.5rem;
+    text-align: center;
+
   }
+  .animate-from-bottom {
+    position: relative;
+    animation-name: slideFromBottom;
+    animation-duration: 1s; /* Adjust the duration as needed */
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes slideFromBottom {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .resize{
+    font-size: 55px;
+  }
+  .text-resize{
+    font-size: 20px;
+  }
+  
+  .small-resize{
+    font-size: 80px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 3000px) {
+
+  /* For desktop: */
+  body {
+    background-color: #ffffff;
+  }
+
+  .cretigal {
+    font-size: 5.5rem;
+  }
+  .animate-from-bottom {
+    position: relative;
+    animation-name: slideFromBottom;
+    animation-duration: 1s; /* Adjust the duration as needed */
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes slideFromBottom {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
