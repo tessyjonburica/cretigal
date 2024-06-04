@@ -61,7 +61,7 @@ function App() {
             <p style={{ fontSize: '20px' }}>We are designers, developers, writers, thinkers,
               and problem solvers.  Small enough to be simple and fast, but big enough to
               deliver your project scope at the pace you need. You can learn more about us,
-              check the latest on Instagram and Twitter or apply to join our team.
+              check the latest on Instagram and Twitter or apply to join our team today.
             </p>
           </div>
         </div>
